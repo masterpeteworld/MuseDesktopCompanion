@@ -86,3 +86,11 @@ Early but working: the dashboard renders, the avatar animates, chat
 flows through the link once paired. The black-screen startup bug is
 fixed by construction — `runApp()` fires immediately and every failure
 mode shows a real screen.
+
+## Ready-to-use sailor avatar
+
+The sailor plush avatar is included at `app/assets/avatars/sailor-muse-avatar.png`. To use it in the running companion, set **Settings → Avatar image URL** to this direct image URL:
+
+`https://raw.githubusercontent.com/masterpeteworld/MuseDesktopCompanion/main/app/assets/avatars/sailor-muse-avatar.png`
+
+The companion accepts a still PNG and animates it with its built-in avatar motion. Animated GIF and WebP files are also supported.
